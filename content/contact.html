@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dominik Neubauer">
+    <title>WhatAbout|Contact</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../mystyle.css" type="text/css">
+
+    <link rel="icon" href="../media/icon.jpg">
+
+</head>
+<body>
+
+<div id="wrapper">
+    <nav>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="topicoverview.html">ALL TOPICS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>WhatAbout some contact?</h1>
+    </header>
+
+    <main>
+            <div class="column">
+                <div class="cell">
+                    <iframe src="https://maps.google.de/maps?hl=de&q=%20Jauerburggasse%20Graz&t=&z=10&ie=utf8&iwloc=b&output=embed" id="iframemaps"></iframe>
+                </div>
+
+                <div class="cell" id="contact">
+
+                    <form id="contact-form">
+                        <fieldset>
+                        <span>Title</span>
+                            <input type="radio" name="radio" class="radio">Mr.
+                            <input type="radio" name="radio" class="radio">Mrs.
+                        <br>
+                        <span>First Name</span>
+                            <input type="text" name="firstname" id="firstname">
+
+                        <br>
+                            <span>Last Name</span>
+                            <input type="text" name="lastname" id="lastname">
+
+                        <br>
+                            <span>E-Mail Address</span>
+                            <input type="email" name="email" id="email">
+                            <br>
+                            <span>Country</span>
+                        <select name="country" id="country">
+                            <option value="" selected>---</option>
+                            <option value="Austria">Austria</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Switzerland">Switzerland</option>
+                        </select>
+                            <br>
+                            <span>Your message</span>
+                            <textarea name="message" rows="5" cols="30">
+                            </textarea>
+
+                            <br>
+                            <input type="submit" id="submit">
+                        </fieldset>
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="column">
+                <div class="cell">
+                    <h3>Feel free to contact me:</h3>
+                    <p>
+                        Dominik Neubauer<br>
+                        Musterstraße 12<br>
+                        8010 Graz<br>
+                        Austria
+                    </p>
+                </div>
+            </div>
+    </main>
+    <div id="toplink">
+        <span><a href="#wrapper">^</a></span>
+    </div>
+</div>
+    <footer id="footer">
+        <ul>
+            <li>&copy;Copyrights by <a href="https://github.com/DominikNeu" target="_blank">Dominik Neubauer</a></li>
+            <li><a href="#">Contact Formular</a></li>
+            <li><a href="#footer">Imprint</a></li>
+            <li><a href="#footer">Terms of use</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
